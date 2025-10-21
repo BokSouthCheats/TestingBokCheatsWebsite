@@ -1,0 +1,68 @@
+# Proxy Website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .browser-selection {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .proxy-form {
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Proxy Website</h1>
+    
+    <div class="browser-selection">
+        <label for="browser">Choose your browser:</label>
+        <select id="browser">
+            <option value="chrome">Google Chrome</option>
+            <option value="firefox">Mozilla Firefox</option>
+            <option value="safari">Apple Safari</option>
+            <option value="edge">Microsoft Edge</option>
+            <option value="opera">Opera</option>
+            <option value="internet_explorer">Internet Explorer</option>
+            <option value="brave">Brave</option>
+            <option value="vivaldi">Vivaldi</option>
+            <option value="lynx">Lynx</option>
+        </select>
+    </div>
+
+    <div class="proxy-form">
+        <input type="text" id="url" placeholder="Enter URL to visit">
+        <input type="submit" value="Go">
+    </div>
+
+</body>
+</html>
